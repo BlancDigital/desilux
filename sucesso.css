@@ -1,0 +1,27 @@
+body {
+  background-color: #fff;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+
+.wrapper h6 {
+  margin-bottom: 0.125em;
+  font-size: clamp(2.1875rem, 1.5234rem + 3.125vw, 3.75rem);
+}
+
+.wrapper p {
+  margin-bottom: 2em;
+}
+
+.wrapper .btn {
+  max-width: 25rem;
+  padding: 0.8em 0.8em;
+  font-size: 1rem;
+  text-align: center;
+}

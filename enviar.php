@@ -9,7 +9,7 @@ $produto                 = htmlspecialchars($_POST['produto-form'], ENT_QUOTES);
 $motorizado              = htmlspecialchars($_POST['motorizado-form'], ENT_QUOTES);
 $investimento            = htmlspecialchars($_POST['investimento-form'], ENT_QUOTES);
 $url                     = htmlspecialchars($_POST['url-form'], ENT_QUOTES);
-// $emailatt_cliente        = 'rafael.romaa@hotmail.com, contato@desiluxcortinas.com.br, desilux@terra.com.br';
+$emailatt_cliente        = 'rafael.romaa@hotmail.com, contato@desiluxcortinas.com.br, desilux@terra.com.br';
 $emailatt_leads          = 'leads@blancmarketingdigital.com.br';
 
 /* =-=-=-= Informações base do e-mail (enviada para todos os destinatários) =-=-=-=*/

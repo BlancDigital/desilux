@@ -165,7 +165,9 @@ function showTab(n) {
     document.getElementById("nextBtn").classList.add("is-hidden")
     document.querySelector(".btn--submit-safari").classList.remove("is-hidden")
   } else {
-    document.getElementById("nextBtn").innerHTML = "&gt;"
+    document.getElementById("nextBtn").classList.remove("is-hidden")
+    document.querySelector(".btn--submit-safari").classList.add("is-hidden")
+    // document.getElementById("nextBtn").innerHTML = "&gt;"
   }
 
   // fixStepIndicator(n)
@@ -190,9 +192,7 @@ function nextPrev(n) {
   }
 
   // Keeps the variables up-to-date
-  let firstName = firstWord(
-    capitalize(document.querySelector("#firstName").value)
-  )
+  let firstName = firstWord(capitalize(document.querySelector("#firstName").value))
 
   nomePessoa.forEach((nome) => {
     nome.innerHTML = firstName
